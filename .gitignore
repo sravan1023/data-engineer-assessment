@@ -1,0 +1,23 @@
+# Secrets & credentials
+.env
+service_account.json
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# Database
+pipeline.db
+*.db-journal
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
